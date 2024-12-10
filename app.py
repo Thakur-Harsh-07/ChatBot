@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Directly assign the API key
-GEMINI_API_KEY = "AIzaSyCNRwnYlh2wujfZ1Nmy-1LV8hQWn4Fah_Y"
+GEMINI_API_KEY = "Add Your GEMINI_API_KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Mental health solutions for common topics
